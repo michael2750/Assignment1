@@ -17,16 +17,15 @@ public class main {
     private static ArrayStack stack;
 
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        String[] arggs;
+        Scanner scan = new Scanner(System.in);
+        String[] strSplitter;
         while (true) {
-            System.out.println("heyheyhey");
-            String str = scn.nextLine();
-            arggs = str.split(" ");
+            String str = scan.nextLine();
+            strSplitter = str.split(" ");
             if(stack == null){
             stack = new ArrayStack(1000);
             }
-            run(0, arggs);
+            run(0, strSplitter);
             stack.print();
         }
     }

@@ -7,7 +7,7 @@ package code;
 
 /**
  *
- * @author Orvur
+ * @author Michael
  */
 public class ArrayStack<T> {
 

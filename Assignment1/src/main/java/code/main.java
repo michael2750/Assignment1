@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Orvur
+ * @author Michael
  */
 @SuppressWarnings("unchecked")
 public class main {

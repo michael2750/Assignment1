@@ -1,2 +1,1 @@
-The program runs with a scanner. So you just run the main function and write in the console.
-The number and the operators need to have a space between them.
+You run the program in the main.java file. The code uses a scanna which waits for your input and it takes numeric numbers and operators.
